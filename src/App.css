@@ -1,16 +1,37 @@
+.App {
+    text-align: center;
+}
 
+
+.Header {
+    width: fit-content; 
+    font-size: 20px;
+    margin: auto;
+
+}
 .display {
     width: fit-content;
-    align-items: center;
-    display: inline-flex;
+    height: fit-content;
+    align-items: left;
+    display: flex;
 }
 .episodeList {
     display: block;
-    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    width: 600px;
 }
-.episodeDescription {
-    margin-left: 100%;
-    text-align: center;
-    font-size: 15px;
+.EpisodeTitle {
+    width: 500px;
+    height: 100px;
 }
+.EpisodeDescription {
+    width: 00px;
+}
+ul {
+    list-style-type: none;
+}
+
+
+
 
